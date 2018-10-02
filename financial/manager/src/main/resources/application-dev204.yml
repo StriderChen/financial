@@ -1,0 +1,12 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /financial/manager
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/fin_manager?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: root
+  jpa:
+    show-sql: true

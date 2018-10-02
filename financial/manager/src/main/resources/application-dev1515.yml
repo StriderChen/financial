@@ -1,0 +1,22 @@
+server:
+  port: 8888
+  context-path: /financial/manager
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/fin_manager?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+swagger:
+   groupName: MANAGE API
+#   basePackage: com.chenjie.financial.manager.controller
+   title: financial API
+   description: 用springboot开发理财产品,管理端的api
+   license: MIT License Version 2.0
