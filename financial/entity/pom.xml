@@ -12,6 +12,12 @@
     <artifactId>entity</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.chenjie</groupId>
             <artifactId>swagger</artifactId>

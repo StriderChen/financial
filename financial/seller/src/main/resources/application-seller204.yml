@@ -1,0 +1,16 @@
+
+server:
+  port: 8989
+  servlet:
+    context-path: /financial/seller
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/fin_manager?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&useSSL=false
+    username: root
+    password: root
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+rpc.manager.url: http://127.0.0.1:8888/financial/manager

@@ -1,4 +1,4 @@
 spring:
   profiles:
-    active: dev1515
+    active: man1515
 
